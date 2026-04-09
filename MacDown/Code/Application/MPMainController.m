@@ -8,6 +8,7 @@
 
 #import "MPMainController.h"
 #import <MASPreferences/MASPreferencesWindowController.h>
+#import "MPAboutWindowController.h"
 #import "MPGlobals.h"
 #import "MPUtilities.h"
 #import "NSDocumentController+Document.h"
@@ -212,6 +213,12 @@ NS_INLINE void treat()
 - (IBAction)showPreferencesWindow:(id)sender
 {
     [self.preferencesWindowController showWindow:nil];
+}
+
+- (IBAction)showAboutWindow:(id)sender
+{
+    [[MPAboutWindowController sharedController] showWindow:sender];
+    [NSApp activateIgnoringOtherApps:YES];
 }
 
 - (IBAction)showHelp:(id)sender
