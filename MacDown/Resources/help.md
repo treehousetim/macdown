@@ -2,7 +2,9 @@
 
 ![MacDown logo](https://macdown.uranusjr.com/static/images/logo-160.png)
 
-Hello there! I’m **MacDown**, the open source Markdown editor for OS X.
+Hello there! I’m **MacDown**, the open source Markdown editor for macOS, originally created by Tzu-ping Chung and contributors.
+
+> **Note:** This binary is built and released by **[treehousetim](https://github.com/treehousetim/macdown)** from a fork of the original project, which has not seen new releases in several years. Bugs and feature requests for this binary belong on the fork's issue tracker, not the upstream repository.
 
 Let me introduce myself.
 

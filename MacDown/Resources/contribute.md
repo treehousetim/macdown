@@ -1,32 +1,21 @@
-# Contributing to MacDown
+# Contributing
 
-MacDown is open source and is a volunteer effort. This means that it depends on people to give some of their free time to improve it and make it even better.
+MacDown is open source. The original project at [MacDownApp/macdown](https://github.com/MacDownApp/macdown) has not been actively maintained for several years.
 
-If you are reading this, then you are probably curious or want to contribute in some way. Read on to see how you can do so.
+This binary is built and released from a fork maintained by **treehousetim**:
+
+https://github.com/treehousetim/macdown
+
+If you've found a bug, want to suggest a feature, or have a fix to send, please open an issue or pull request on the fork.
 
 ## Getting the Source Code
 
-MacDown is hosted on GitHub:
+```
+git clone https://github.com/treehousetim/macdown.git
+```
 
-https://github.com/MacDownApp/macdown
-
-Here you can get the source code, read through the issues and start contributing.
-
-## But, I am not a Coder
-
-Contribution is not limited to software developers, since there are other ways you can help. For example, contributing towards documentation, translation and support. Join the room on Gitter to see how you can help (see below).
-
-If you want to help translate, then you can look at our project page on [Transifex](https://www.transifex.com/macdown/macdown/) and see whether to add a new languages or complete the work of an existing language.
-
-## Joining the Conversation
-
-If you are new the project, then a good place to start is Gitter:
-
-https://gitter.im/MacDownApp/macdown
-
-Join the room, introduce yourself and find out how you can help out.
+The original upstream is preserved as the `upstream` remote in the fork's history.
 
 ## License
 
-MacDown is released under the terms of MIT License. For more details take a look at the [README](https://github.com/MacDownApp/macdown/blob/master/README.md).
-
+MacDown is released under the terms of the MIT License. For details, see the [README](https://github.com/treehousetim/macdown/blob/master/README.md).
